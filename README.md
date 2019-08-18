@@ -1,2 +1,2 @@
-# arduino-projects
+# Arduino
 Projetos diversos utilizando Arduino
