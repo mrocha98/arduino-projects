@@ -22,7 +22,7 @@ void sequencia(int arr[], int a, int b){
   digitalWrite(arr[a], LOW);
   digitalWrite(arr[b], LOW);
   if(a != b){
-    teste(arr, a+1, b-1);
+    sequencia(arr, a+1, b-1);
     digitalWrite(arr[a], HIGH);
     digitalWrite(arr[b], HIGH);
     delay(TEMPO);
